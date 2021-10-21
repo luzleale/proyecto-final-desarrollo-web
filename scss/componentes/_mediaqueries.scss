@@ -1,0 +1,185 @@
+/*MEDIA QUERIES*/
+/*Mobile first*/
+
+@media only screen and (min-width: 768px) {
+  /*Contenido página de Inicio*/
+
+  .contInicio {
+    flex-direction: row;
+    &__flexItem1 {
+      width: 70%;
+    }
+    &__flexItem2 {
+      margin-right: 0.8rem;
+      border-color: #f21667;
+      width: 30%;
+    }
+  }
+
+  .contImagenes {
+    flex-direction: row;
+    &__imgs {
+      width: 30%;
+    }
+    &__esconderImg {
+      display: inline-block;
+    }
+  }
+
+  .tituloSecundario {
+    font-size: 1.5rem;
+    color: #53d943;
+    padding-top: 0.8rem;
+    padding-bottom: 0.8rem;
+    letter-spacing: 0.2rem;
+    line-height: 1.2rem;
+  }
+  .estilosTexto {
+    font-size: 1.2rem;
+  }
+  #titulo1 {
+    line-height: 4rem;
+    font-size: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .logo {
+    height: 86px;
+  }
+
+  /*Contenido página de Servicios*/
+
+  .tituloPrincipal {
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .flexServicios {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: none;
+    &__componente1 {
+      width: 35%;
+    }
+    &__componente2 {
+      width: 30%;
+    }
+    &__componente3 {
+      width: 35%;
+    }
+  }
+  .estilosParrafo {
+    font-size: 1.2rem;
+  }
+
+  /*Contendido página 'Nosotros'*/
+
+  .nosotros {
+    flex-direction: row;
+    &__imagen {
+      flex-wrap: nowrap;
+      max-width: 100%;
+    }
+    &__section {
+      flex-wrap: nowrap;
+    }
+  }
+
+  /*Contenido página de Contacto*/
+
+  .contForm {
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  /*Contenido página de Inicio*/
+
+  .contInicio {
+    flex-direction: row;
+    &__flexItem1 {
+      width: 35%;
+    }
+    &__flexItem2 {
+      border-color: #53d943;
+      margin-right: 1rem;
+      width: 35%;
+      padding: auto;
+    }
+  }
+  .tituloSecundario {
+    color: #bf245d;
+    font-size: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1.2rem;
+    letter-spacing: 0.3rem;
+    line-height: 2rem;
+  }
+  .estilosTexto {
+    font-size: 1.8rem;
+  }
+  .contImagenes {
+    flex-direction: row;
+    &__imgs {
+      width: 35%;
+    }
+    &__esconderImg {
+      display: inline-block;
+    }
+  }
+
+  #titulo1 {
+    line-height: 5rem;
+    font-size: 3.2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  #titulo1:hover {
+    transform: scale(1.5);
+  }
+
+  .logo {
+    height: 96px;
+  }
+
+  /*Contenido página de Servicios*/
+
+  .tituloPrincipal {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+  .flexServicios {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-image: linear-gradient(white, #ff69ca);
+    &__componente1 {
+      width: 30%;
+    }
+    &__componente2 {
+      width: 40%;
+    }
+    &__componente3 {
+      width: 30%;
+    }
+  }
+
+  .estilosParrafo {
+    font-size: 1.8rem;
+  }
+
+  /*Contenido página 'Nosotros'*/
+
+  .nosotros {
+    flex-direction: row;
+    &__imagen {
+      flex-wrap: nowrap;
+      max-width: 100%;
+    }
+    &__section {
+      flex-wrap: nowrap;
+      width: 70%;
+    }
+  }
+}

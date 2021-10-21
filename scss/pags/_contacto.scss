@@ -1,0 +1,31 @@
+.contForm {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+}
+
+.formStyles {
+  text-align: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  max-width: 100%;
+}
+
+.letterStyles {
+  font-size: 1.5rem;
+  color: #0d0d0d;
+  font-weight: bolder;
+}
+.spaces {
+  padding: 0.5rem;
+  margin: 1rem;
+  border-style: solid;
+  border-color: #73224f;
+}
+.estilosButton {
+  background-color: #f1c4f2;
+}
+.estilosButton:hover {
+  background-color: #53d943;
+}

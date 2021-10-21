@@ -1,0 +1,22 @@
+/*Página sobre nosotros*/
+
+.nosotros {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  &__imagen {
+    flex-wrap: wrap;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+    padding: 1rem;
+    max-width: 100%;
+  }
+  &__section {
+    flex-wrap: wrap;
+    padding: 1rem;
+    width: 100%;
+    &--texto {
+      text-align: left;
+    }
+  }
+}

@@ -1,0 +1,34 @@
+/*Página de Servicios: flex-box y mobile first*/
+/*MIXINS*/
+
+@mixin servicios(
+  $justify-content,
+  $widht,
+  $padding,
+  $border-style,
+  $border-color
+) {
+  justify-content: $justify-content;
+  width: $widht;
+  padding: $padding;
+  border-style: $border-style;
+  border-color: $border-color;
+}
+
+.flexServicios {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  background-image: linear-gradient(white, #ff69ca);
+  &__componente1 {
+    @include servicios(flex-start, 100%, 1rem, double, #bf245d);
+  }
+  &__componente2 {
+    @include servicios(flex-end, 100%, 1rem, double, #8c8c8c);
+  }
+  &__componente3 {
+    @include servicios(flex-direction, 100%, 1rem, double, #bf3b91);
+  }
+}

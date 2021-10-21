@@ -1,0 +1,75 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: 0px;
+}
+.fontFamily {
+  font-family: "Urbanist", sans-serif;
+  font-size: 20px;
+}
+
+main {
+  background-color: #f1c4f2;
+  padding-top: 5rem;
+}
+
+/*Enlaces entre páginas*/
+
+.enlacePags {
+  color: #bf245d;
+}
+.enlacePags:hover {
+  background: #0d0d0d;
+  color: #f1c4f2;
+  font-weight: bold;
+}
+
+/*Estilos de títulos y párrafos*/
+
+#titulo1 {
+  color: #f21667;
+  text-align-last: center;
+  text-shadow: 5px 5px 5px #ff69ca;
+  line-height: 3rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 1rem;
+}
+
+.tituloPrincipal {
+  color: #f21667;
+  text-align: left;
+  line-height: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  text-shadow: 5px 5px 5px #8c8c8c;
+}
+
+.tituloSecundario {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #bf245d;
+}
+
+/*Incluyendo MIXINS*/
+
+@mixin fuentes($color, $font-size, $font-weight) {
+  color: $color;
+  font-size: $font-size;
+  font-weight: $font-weight;
+}
+
+.estilosTexto {
+  @include fuentes(#73224f, 1rem, normal);
+}
+
+.estilosParrafo {
+  @include fuentes(#0d0d0d, 1rem, bolder);
+}

@@ -1,0 +1,33 @@
+/*ESTILOS FOOTER*/
+
+.footer {
+  background-image: linear-gradient(white, #ff69ca);
+  text-align: center;
+}
+
+/*Incluyendo EXTEND*/
+
+.footer__links {
+  text-decoration: none;
+  font-weight: bolder;
+  line-height: 2rem;
+  font-size: 3rem;
+  padding: 1rem 0.5rem;
+}
+.link1 {
+  @extend .footer__links;
+  color: #bf245d;
+}
+.link2 {
+  @extend .footer__links;
+  color: blue;
+}
+.link3 {
+  @extend .footer__links;
+  color: #53d943;
+}
+
+.footer__texto {
+  color: #0d0d0d;
+  font-weight: 800;
+}
