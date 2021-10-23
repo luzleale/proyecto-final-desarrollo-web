@@ -590,4 +590,14 @@ main {
   color: #f21667;
 }
 
+.style404 {
+  color: #f21667;
+  font-size: 1.5rem;
+  padding-top: 2rem;
+  font-weight: bold;
+}
+.style404:hover {
+  color: blue;
+}
+
 /*# sourceMappingURL=style.css.map */
