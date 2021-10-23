@@ -581,5 +581,13 @@ main {
     width: 70%;
   }
 }
+.page404 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #f21667;
+}
 
 /*# sourceMappingURL=style.css.map */
