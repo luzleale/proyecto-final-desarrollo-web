@@ -1,7 +1,7 @@
 {
   "name": "proyecto-maria-luz-leale-coderhouse",
   "version": "1.0.0",
-  "description": "",
+  "description": "Este es el sitio web de SK Belleza Integral, un centro de estética para la mujer donde se ofrecen los servicios de masajes, manicure, pedicure y tratamientos faciales, estre otros.",
   "main": "index.js",
   "scripts": {
     "compile": "sass --watch scss:css"
