@@ -1,6 +1,13 @@
 /*MEDIA QUERIES*/
 /*Mobile first*/
 
+@media only screen and (min-width: 100px) {
+  /*GALERÍA*/
+  .galeriaGrid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 @media only screen and (min-width: 768px) {
   /*Contenido página de Inicio*/
 
@@ -96,6 +103,11 @@
   .contForm {
     justify-content: center;
   }
+  /*GALERÍA*/
+
+  .galeriaGrid {
+    grid-template-columns: repeat(2, 1fr);
+  }
 }
 
 @media only screen and (min-width: 1024px) {
@@ -153,8 +165,8 @@
   .tituloPrincipal {
     font-size: 2.5rem;
     text-align: center;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
   }
   .flexServicios {
     flex-direction: row;
@@ -188,5 +200,9 @@
       flex-wrap: nowrap;
       width: 70%;
     }
+  }
+  /*GALERÍA*/
+  .galeriaGrid {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
