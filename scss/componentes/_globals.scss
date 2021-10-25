@@ -1,7 +1,7 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: 0px;
+  box-sizing: border-box;
 }
 /*Variables*/
 
@@ -22,6 +22,7 @@ body {
 main {
   background-color: $color-claro;
   padding-top: 5rem;
+  margin-right: auto;
 }
 
 /*Enlaces entre páginas*/
@@ -43,7 +44,7 @@ main {
   text-shadow: 5px 5px 5px $rosa-claro;
   line-height: 3rem;
   font-weight: bold;
-  padding-top: 0.5rem;
+  padding-top: 7rem;
   padding-bottom: 1rem;
 }
 

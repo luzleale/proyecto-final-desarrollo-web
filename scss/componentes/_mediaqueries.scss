@@ -17,7 +17,7 @@
       width: 70%;
     }
     &__flexItem2 {
-      margin-right: 0.8rem;
+      margin-right: auto;
       border-color: $rosa-principal;
       width: 30%;
     }
@@ -47,7 +47,7 @@
   #titulo1 {
     line-height: 4rem;
     font-size: 2.5rem;
-    padding-top: 1rem;
+    padding-top: 6rem;
     padding-bottom: 1rem;
   }
   .logo {
@@ -129,7 +129,7 @@
     }
     &__flexItem2 {
       border-color: $verde-claro;
-      margin-right: 1rem;
+      margin-right: auto;
       width: 35%;
       padding: auto;
     }
@@ -158,7 +158,7 @@
   #titulo1 {
     line-height: 5rem;
     font-size: 3.2rem;
-    padding-top: 2rem;
+    padding-top: 5rem;
     padding-bottom: 2rem;
   }
   #titulo1:hover {
