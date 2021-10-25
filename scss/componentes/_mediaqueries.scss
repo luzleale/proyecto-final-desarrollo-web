@@ -84,6 +84,12 @@
       flex-wrap: nowrap;
     }
   }
+  .divMapa {
+    justify-content: center;
+  }
+  .mapaStyle {
+    justify-content: center;
+  }
 
   /*Contenido página de Contacto*/
 
@@ -176,6 +182,7 @@
     &__imagen {
       flex-wrap: nowrap;
       max-width: 100%;
+      height: 50vh;
     }
     &__section {
       flex-wrap: nowrap;

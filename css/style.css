@@ -54,6 +54,7 @@ main {
 .tituloSecundario {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
+  margin-left: 1rem;
   font-weight: bold;
   font-size: 1.4rem;
   color: #bf245d;
@@ -74,7 +75,7 @@ main {
 
 /*Estilos header*/
 .header {
-  background-image: linear-gradient(#ff69ca, white);
+  background-image: linear-gradient(white, #ff69ca);
 }
 .header__logo {
   height: 76px;
@@ -91,7 +92,7 @@ main {
 
 /*ESTILOS FOOTER*/
 .footer {
-  background-image: linear-gradient(white, #ff69ca);
+  background-image: linear-gradient(#ff69ca, white);
   text-align: center;
 }
 
@@ -214,6 +215,18 @@ main {
 }
 .nosotros__section--texto {
   text-align: left;
+}
+
+.divMapa {
+  display: flex;
+  justify-content: left;
+}
+
+.mapaStyle {
+  width: 100%;
+  display: flex;
+  justify-content: left;
+  padding: 2rem;
 }
 
 /*Página de Servicios: flex-box y mobile first*/
@@ -483,6 +496,14 @@ main {
     flex-wrap: nowrap;
   }
 
+  .divMapa {
+    justify-content: center;
+  }
+
+  .mapaStyle {
+    justify-content: center;
+  }
+
   /*Contenido página de Contacto*/
   .contForm {
     justify-content: center;
@@ -575,6 +596,7 @@ main {
   .nosotros__imagen {
     flex-wrap: nowrap;
     max-width: 100%;
+    height: 50vh;
   }
   .nosotros__section {
     flex-wrap: nowrap;
