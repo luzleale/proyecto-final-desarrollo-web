@@ -534,11 +534,11 @@ main {
   .nosotros__imagen {
     flex-wrap: nowrap;
     max-width: 100%;
-    height: 50vh;
+    height: 70vh;
   }
   .nosotros__section {
     flex-wrap: nowrap;
-    width: 70%;
+    width: 60%;
   }
 
   /*GALERÍA*/
