@@ -5,6 +5,8 @@
   box-sizing: 0px;
 }
 
+/*Variables*/
+/*Estilos generales*/
 body {
   font-family: "Urbanist", sans-serif;
   font-size: 20px;
@@ -129,7 +131,6 @@ main {
   margin-left: 0.5rem;
   font-weight: bold;
 }
-
 .enlaceInterno:hover {
   transform: scale(2);
   color: #0d0d0d;
@@ -143,11 +144,6 @@ main {
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-/*Color de fondo del Inicio*/
-.colorIndex {
-  background-color: whitesmoke;
 }
 
 /*Flexbox página de Inicio*/
@@ -293,38 +289,39 @@ main {
   row-gap: 0.5rem;
 }
 
-.contForm {
+.contenedorForm {
   width: 100%;
   display: flex;
   justify-content: left;
 }
-
-.formStyles {
+.contenedorForm__estilos {
   text-align: center;
-  padding: 1rem;
+  padding: 0.3rem;
   display: flex;
   flex-direction: column;
   max-width: 100%;
 }
-
-.letterStyles {
+.contenedorForm__estilos--texto {
   font-size: 1.5rem;
   color: #0d0d0d;
   font-weight: bolder;
 }
-
-.spaces {
+.contenedorForm__estilos--spaces {
   padding: 0.5rem;
   margin: 1rem;
   border-style: solid;
   border-color: #73224f;
 }
-
-.estilosButton {
+.contenedorForm__estilos--button1 {
   background-color: #f1c4f2;
 }
-
-.estilosButton:hover {
+.contenedorForm__estilos--button1:hover {
+  background-color: #f75555;
+}
+.contenedorForm__estilos--button2 {
+  background-color: #f1c4f2;
+}
+.contenedorForm__estilos--button2:hover {
   background-color: #53d943;
 }
 
@@ -431,7 +428,7 @@ main {
   }
 
   /*Contenido página de Contacto*/
-  .contForm {
+  .contenedorForm {
     justify-content: center;
   }
 

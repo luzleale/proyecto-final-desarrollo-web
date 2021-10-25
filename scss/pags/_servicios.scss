@@ -21,9 +21,9 @@
   flex-wrap: wrap;
   margin-left: 1rem;
   margin-right: 1rem;
-  background-image: linear-gradient(white, #ff69ca);
+  background-image: linear-gradient(white, $rosa-claro);
   &__componente1 {
-    @include servicios(flex-start, 100%, 1rem, double, #bf245d);
+    @include servicios(flex-start, 100%, 1rem, double, $rosa-oscuro);
   }
   &__componente2 {
     @include servicios(flex-end, 100%, 1rem, double, #8c8c8c);

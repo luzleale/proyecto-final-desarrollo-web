@@ -1,7 +1,7 @@
 /*ESTILOS FOOTER*/
 
 .footer {
-  background-image: linear-gradient(#ff69ca, white);
+  background-image: linear-gradient($rosa-claro, white);
   text-align: center;
 }
 
@@ -16,7 +16,7 @@
 }
 .link1 {
   @extend .footer__links;
-  color: #bf245d;
+  color: $rosa-oscuro;
 }
 .link2 {
   @extend .footer__links;
@@ -24,10 +24,10 @@
 }
 .link3 {
   @extend .footer__links;
-  color: #53d943;
+  color: $verde-claro;
 }
 
 .footer__texto {
-  color: #0d0d0d;
+  color: $black-color;
   font-weight: 800;
 }

@@ -3,33 +3,44 @@
   padding: 0px;
   box-sizing: 0px;
 }
+/*Variables*/
+
+$color-claro: #f1c4f2;
+$rosa-oscuro: #bf245d;
+$rosa-principal: #f21667;
+$black-color: #0d0d0d;
+$rosa-claro: #ff69ca;
+$verde-claro: #53d943;
+
+/*Estilos generales*/
+
 body {
   font-family: "Urbanist", sans-serif;
   font-size: 20px;
 }
 
 main {
-  background-color: #f1c4f2;
+  background-color: $color-claro;
   padding-top: 5rem;
 }
 
 /*Enlaces entre páginas*/
 
 .enlacePags {
-  color: #bf245d;
+  color: $rosa-oscuro;
 }
 .enlacePags:hover {
-  background: #0d0d0d;
-  color: #f1c4f2;
+  background: $black-color;
+  color: $color-claro;
   font-weight: bold;
 }
 
 /*Estilos de títulos y párrafos*/
 
 #titulo1 {
-  color: #f21667;
+  color: $rosa-principal;
   text-align-last: center;
-  text-shadow: 5px 5px 5px #ff69ca;
+  text-shadow: 5px 5px 5px $rosa-claro;
   line-height: 3rem;
   font-weight: bold;
   padding-top: 0.5rem;
@@ -37,7 +48,7 @@ main {
 }
 
 .tituloPrincipal {
-  color: #f21667;
+  color: $rosa-principal;
   text-align: left;
   line-height: 2rem;
   font-size: 1.5rem;
@@ -56,7 +67,7 @@ main {
   margin-left: 1rem;
   font-weight: bold;
   font-size: 1.4rem;
-  color: #bf245d;
+  color: $rosa-oscuro;
 }
 
 /*Incluyendo MIXINS*/
@@ -72,5 +83,5 @@ main {
 }
 
 .estilosParrafo {
-  @include fuentes(#0d0d0d, 1rem, bolder);
+  @include fuentes($black-color, 1rem, bolder);
 }

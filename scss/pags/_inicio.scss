@@ -2,13 +2,13 @@
 
 .enlaceInterno {
   text-decoration: none;
-  color: #53d943;
+  color: $verde-claro;
   margin-left: 0.5rem;
   font-weight: bold;
-}
-.enlaceInterno:hover {
-  transform: scale(2);
-  color: #0d0d0d;
+  &:hover {
+    transform: scale(2);
+    color: $black-color;
+  }
 }
 
 /*Banner*/
@@ -20,12 +20,6 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
-}
-
-/*Color de fondo del Inicio*/
-
-.colorIndex {
-  background-color: whitesmoke;
 }
 
 /*Flexbox página de Inicio*/
@@ -48,7 +42,7 @@
     margin-top: 1rem;
     padding: 1rem;
     border-style: dotted;
-    border-color: #53d943;
+    border-color: $verde-claro;
     margin-right: 0.5rem;
     margin-left: 1rem;
     margin-bottom: 1rem;

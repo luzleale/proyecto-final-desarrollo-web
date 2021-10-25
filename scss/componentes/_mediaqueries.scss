@@ -18,7 +18,7 @@
     }
     &__flexItem2 {
       margin-right: 0.8rem;
-      border-color: #f21667;
+      border-color: $rosa-principal;
       width: 30%;
     }
   }
@@ -35,7 +35,7 @@
 
   .tituloSecundario {
     font-size: 1.5rem;
-    color: #53d943;
+    color: $verde-claro;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     letter-spacing: 0.2rem;
@@ -100,7 +100,7 @@
 
   /*Contenido página de Contacto*/
 
-  .contForm {
+  .contenedorForm {
     justify-content: center;
   }
   /*GALERÍA*/
@@ -128,14 +128,14 @@
       width: 35%;
     }
     &__flexItem2 {
-      border-color: #53d943;
+      border-color: $verde-claro;
       margin-right: 1rem;
       width: 35%;
       padding: auto;
     }
   }
   .tituloSecundario {
-    color: #bf245d;
+    color: $rosa-oscuro;
     font-size: 2rem;
     padding-top: 1rem;
     padding-bottom: 1.2rem;
@@ -180,7 +180,7 @@
   .flexServicios {
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: linear-gradient(white, #ff69ca);
+    background-image: linear-gradient(white, $rosa-claro);
     &__componente1 {
       width: 30%;
     }

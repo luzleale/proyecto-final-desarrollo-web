@@ -125,35 +125,73 @@
 
     <!--Inicio del contenido-->
     <main>
-      <section class="contForm">
+      <section class="contenedorForm">
         <!--Este es mi formulario-->
-        <form action="" class="formStyles">
+        <form action="" class="contenedorForm__estilos">
           <h1>
             <legend class="tituloPrincipal">Formulario de contacto</legend>
           </h1>
-          <label for="nombre" class="letterStyles">Nombre:</label>
-          <input type="text" name="nombre" id="nombre" class="spaces" />
-          <label for="apellido" class="letterStyles">Apellido:</label>
-          <input type="text" name="apellido" id="apellido" class="spaces" />
-          <label for="email" class="letterStyles">Correo electrónico:</label>
+          <label
+            for="nombre"
+            class="contenedorForm__estilos contenedorForm__estilos--texto"
+            >Nombre:</label
+          >
+          <input
+            type="text"
+            name="nombre"
+            id="nombre"
+            class="contenedorForm__estilos contenedorForm__estilos--spaces"
+          />
+          <label
+            for="apellido"
+            class="contenedorForm__estilos contenedorForm__estilos--texto"
+            >Apellido:</label
+          >
+          <input
+            type="text"
+            name="apellido"
+            id="apellido"
+            class="contenedorForm__estilos contenedorForm__estilos--spaces"
+          />
+          <label
+            for="email"
+            class="contenedorForm__estilos contenedorForm__estilos--texto"
+            >Correo electrónico:</label
+          >
           <input
             type="email"
             name="email"
             id="email"
             placeholder="nombre@ejemplo.com"
             required
-            class="spaces"
+            class="contenedorForm__estilos contenedorForm__estilos--spaces"
           />
-          <label for="mensaje" class="letterStyles">Mensaje</label>
+          <label
+            for="mensaje"
+            class="contenedorForm__estilos contenedorForm__estilos--texto"
+            >Mensaje</label
+          >
           <textarea
             name="mensaje"
             id="mensaje"
             cols="50"
             rows="10"
-            class="spaces"
+            class="contenedorForm__estilos contenedorForm__estilos--spaces"
           ></textarea>
-          <input type="reset" value="Borrar" class="spaces estilosButton" />
-          <input type="submit" value="Enviar" class="spaces estilosButton" />
+          <input
+            type="reset"
+            value="Borrar"
+            class="
+              contenedorForm__estilos--spaces contenedorForm__estilos--button1
+            "
+          />
+          <input
+            type="submit"
+            value="Enviar"
+            class="
+              contenedorForm__estilos--spaces contenedorForm__estilos--button2
+            "
+          />
         </form>
       </section>
     </main>

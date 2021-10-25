@@ -1,7 +1,7 @@
 /*Estilos header*/
 
 .header {
-  background-image: linear-gradient(white, #ff69ca);
+  background-image: linear-gradient(white, $rosa-claro);
   &__logo {
     height: 76px;
   }
@@ -12,6 +12,6 @@
     padding: 1rem 1rem;
   }
   &__enlace:hover {
-    color: #f21667;
+    color: $rosa-principal;
   }
 }
