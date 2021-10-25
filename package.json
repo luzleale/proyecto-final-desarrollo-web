@@ -6,6 +6,6 @@
   "scripts": {
     "compile": "sass --watch scss:css"
   },
-  "author": "Luz",
+  "author": "María Luz Leale",
   "license": "ISC"
 }

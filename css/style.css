@@ -40,11 +40,11 @@ main {
 .tituloPrincipal {
   color: #f21667;
   text-align: left;
-  line-height: 1rem;
+  line-height: 2rem;
   font-size: 1.5rem;
   font-weight: bold;
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
@@ -272,19 +272,12 @@ main {
 }
 
 .contenedorGaleria {
-  padding: 2rem;
-  background-color: #f21667;
+  padding: 1rem;
+  background-color: #ff69ca;
 }
 
 .imagenGaleria {
   width: 100%;
-  filter: grayscale(2);
-}
-.imagenGaleria:hover {
-  transform: scale(1.2);
-  transition: 0.8s;
-  z-index: 300;
-  filter: none;
 }
 
 .imagenGaleria img {
@@ -298,7 +291,6 @@ main {
   grid-template-columns: repeat(3, 1fr);
   column-gap: 0.5rem;
   row-gap: 0.5rem;
-  background-color: #f21667;
 }
 
 .contForm {
@@ -446,6 +438,16 @@ main {
   /*GALERÍA*/
   .galeriaGrid {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .imagenGaleria {
+    filter: grayscale(2);
+  }
+  .imagenGaleria:hover {
+    transform: scale(1.2);
+    transition: 0.8s;
+    z-index: 300;
+    filter: none;
   }
 }
 @media only screen and (min-width: 1024px) {
