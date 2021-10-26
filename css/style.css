@@ -278,7 +278,6 @@ main {
   font-weight: bolder;
   font-size: 2.5rem;
   text-shadow: 4px 5px 8px #0d0d0d;
-  transform: rotate(-5deg);
 }
 
 .contenedorGaleria {
@@ -504,10 +503,6 @@ main {
     font-size: 3.2rem;
     padding-top: 5rem;
     padding-bottom: 2rem;
-  }
-
-  #titulo1:hover {
-    transform: scale(1.5);
   }
 
   .logo {
