@@ -2,7 +2,7 @@
 
 .enlaceInterno {
   text-decoration: none;
-  color: $verde-claro;
+  color: $color-violeta;
   margin-left: 0.5rem;
   font-weight: bold;
   &:hover {
@@ -27,27 +27,22 @@
 .contInicio {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   &__flexItem1 {
-    justify-content: flex-start;
+    justify-content: center;
     padding: 1rem;
     margin-top: 1rem;
-    margin-right: 2rem;
-    margin-left: 0.5rem;
     margin-bottom: 1rem;
     flex-grow: 2;
-    width: 80%;
+    width: 100%;
   }
   &__flexItem2 {
-    justify-content: flex-end;
+    justify-content: center;
     margin-top: 1rem;
     padding: 1rem;
-    border-style: dotted;
-    border-color: $verde-claro;
-    margin-right: 0.5rem;
-    margin-left: 1rem;
     margin-bottom: 1rem;
     flex-basis: 1;
-    width: 80%;
+    width: 100%;
   }
 }
 

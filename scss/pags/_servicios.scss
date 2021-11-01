@@ -40,6 +40,6 @@
     @include servicios(flex-end, 100%, 1rem, double, #8c8c8c);
   }
   &__componente3 {
-    @include servicios(flex-direction, 100%, 1rem, double, #bf3b91);
+    @include servicios(flex-direction, 100%, 1rem, double, $rosa-claro);
   }
 }

@@ -10,7 +10,7 @@ $rosa-oscuro: #bf245d;
 $rosa-principal: #f21667;
 $black-color: #0d0d0d;
 $rosa-claro: #ff69ca;
-$verde-claro: #53d943;
+$color-violeta: #73224f;
 
 /*Estilos generales*/
 
@@ -65,10 +65,10 @@ main {
 .tituloSecundario {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-left: 1rem;
   font-weight: bold;
   font-size: 1.4rem;
   color: $rosa-oscuro;
+  text-align: center;
 }
 
 /*Incluyendo MIXINS*/
@@ -80,7 +80,7 @@ main {
 }
 
 .estilosTexto {
-  @include fuentes(#73224f, 1rem, normal);
+  @include fuentes($color-violeta, 1rem, normal);
 }
 
 .estilosParrafo {

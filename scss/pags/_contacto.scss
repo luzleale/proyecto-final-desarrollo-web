@@ -17,7 +17,7 @@
       padding: 0.5rem;
       margin: 1rem;
       border-style: solid;
-      border-color: #73224f;
+      border-color: $color-violeta;
     }
     &--button1 {
       background-color: $color-claro;
@@ -28,7 +28,7 @@
     &--button2 {
       background-color: $color-claro;
       &:hover {
-        background-color: $verde-claro;
+        background-color: #53d943;
       }
     }
   }

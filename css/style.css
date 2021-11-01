@@ -57,10 +57,10 @@ main {
 .tituloSecundario {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  margin-left: 1rem;
   font-weight: bold;
   font-size: 1.4rem;
   color: #bf245d;
+  text-align: center;
 }
 
 /*Incluyendo MIXINS*/
@@ -128,7 +128,7 @@ main {
 /*Enlaces internos página de Inicio*/
 .enlaceInterno {
   text-decoration: none;
-  color: #53d943;
+  color: #73224f;
   margin-left: 0.5rem;
   font-weight: bold;
 }
@@ -151,28 +151,23 @@ main {
 .contInicio {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .contInicio__flexItem1 {
-  justify-content: flex-start;
+  justify-content: center;
   padding: 1rem;
   margin-top: 1rem;
-  margin-right: 2rem;
-  margin-left: 0.5rem;
   margin-bottom: 1rem;
   flex-grow: 2;
-  width: 80%;
+  width: 100%;
 }
 .contInicio__flexItem2 {
-  justify-content: flex-end;
+  justify-content: center;
   margin-top: 1rem;
   padding: 1rem;
-  border-style: dotted;
-  border-color: #53d943;
-  margin-right: 0.5rem;
-  margin-left: 1rem;
   margin-bottom: 1rem;
   flex-basis: 1;
-  width: 80%;
+  width: 100%;
 }
 
 .contImagenes {
@@ -268,7 +263,7 @@ main {
   width: 100%;
   padding: 1rem;
   border-style: double;
-  border-color: #bf3b91;
+  border-color: #ff69ca;
 }
 
 /*Galería de imágenes*/
@@ -348,18 +343,6 @@ main {
 }
 @media only screen and (min-width: 768px) {
   /*Contenido página de Inicio*/
-  .contInicio {
-    flex-direction: row;
-  }
-  .contInicio__flexItem1 {
-    width: 70%;
-  }
-  .contInicio__flexItem2 {
-    margin-right: auto;
-    border-color: #f21667;
-    width: 30%;
-  }
-
   .contImagenes {
     flex-direction: row;
   }
@@ -372,7 +355,6 @@ main {
 
   .tituloSecundario {
     font-size: 1.5rem;
-    color: #53d943;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     letter-spacing: 0.2rem;
@@ -463,16 +445,18 @@ main {
 @media only screen and (min-width: 1024px) {
   /*Contenido página de Inicio*/
   .contInicio {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
   }
   .contInicio__flexItem1 {
-    width: 35%;
+    justify-content: center;
+    text-align: center;
   }
   .contInicio__flexItem2 {
-    border-color: #53d943;
     margin-right: auto;
-    width: 35%;
+    justify-content: center;
     padding: auto;
+    text-align: center;
   }
 
   .tituloSecundario {

@@ -11,18 +11,6 @@
 @media only screen and (min-width: 768px) {
   /*Contenido página de Inicio*/
 
-  .contInicio {
-    flex-direction: row;
-    &__flexItem1 {
-      width: 70%;
-    }
-    &__flexItem2 {
-      margin-right: auto;
-      border-color: $rosa-principal;
-      width: 30%;
-    }
-  }
-
   .contImagenes {
     flex-direction: row;
     &__imgs {
@@ -35,7 +23,6 @@
 
   .tituloSecundario {
     font-size: 1.5rem;
-    color: $verde-claro;
     padding-top: 0.8rem;
     padding-bottom: 0.8rem;
     letter-spacing: 0.2rem;
@@ -123,15 +110,17 @@
   /*Contenido página de Inicio*/
 
   .contInicio {
-    flex-direction: row;
+    flex-direction: column;
+    justify-content: center;
     &__flexItem1 {
-      width: 35%;
+      justify-content: center;
+      text-align: center;
     }
     &__flexItem2 {
-      border-color: $verde-claro;
       margin-right: auto;
-      width: 35%;
+      justify-content: center;
       padding: auto;
+      text-align: center;
     }
   }
   .tituloSecundario {
