@@ -36,7 +36,7 @@ main {
   line-height: 3rem;
   font-size: 2.5rem;
   font-weight: bold;
-  padding-top: 7rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
 }
 
@@ -137,14 +137,17 @@ main {
   color: #0d0d0d;
 }
 
-/*Banner*/
-.bannerPrincipal {
-  height: 70vh;
-  background-image: url(../imagenes/bannerindex.jpg);
+/*CAROUSEL*/
+.contSize {
+  padding-bottom: 3rem;
+}
+
+.carousel-inner {
+  max-height: 60rem;
+}
+
+.imgslide {
   max-width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 /*Flexbox página de Inicio*/
@@ -223,19 +226,6 @@ main {
 
 /*Página de Servicios: flex-box y mobile first*/
 /*MIXINS*/
-/*CAROUSEL*/
-.contSize {
-  padding-bottom: 3rem;
-}
-
-.carousel-inner {
-  max-height: 60rem;
-}
-
-.imgslide {
-  max-width: 100%;
-}
-
 .flexServicios {
   display: flex;
   flex-direction: column;
@@ -368,7 +358,7 @@ main {
   #titulo1 {
     line-height: 4rem;
     font-size: 2.5rem;
-    padding-top: 6rem;
+    padding-top: 4rem;
     padding-bottom: 1rem;
   }
 
@@ -485,7 +475,6 @@ main {
   #titulo1 {
     line-height: 5rem;
     font-size: 3.2rem;
-    padding-top: 5rem;
     padding-bottom: 2rem;
   }
 

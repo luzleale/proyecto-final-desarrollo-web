@@ -1,17 +1,6 @@
 /*Página de Servicios: flex-box y mobile first*/
 /*MIXINS*/
 
-/*CAROUSEL*/
-.contSize {
-  padding-bottom: 3rem;
-}
-.carousel-inner {
-  max-height: 60rem;
-}
-.imgslide {
-  max-width: 100%;
-}
-
 @mixin servicios(
   $justify-content,
   $widht,

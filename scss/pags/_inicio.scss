@@ -11,15 +11,15 @@
   }
 }
 
-/*Banner*/
-
-.bannerPrincipal {
-  height: 70vh;
-  background-image: url(../imagenes/bannerindex.jpg);
+/*CAROUSEL*/
+.contSize {
+  padding-bottom: 3rem;
+}
+.carousel-inner {
+  max-height: 60rem;
+}
+.imgslide {
   max-width: 100%;
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
 }
 
 /*Flexbox página de Inicio*/
