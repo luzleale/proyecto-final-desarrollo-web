@@ -97,6 +97,7 @@ main {
 .footer {
   background-image: linear-gradient(white, #ff69ca, #bf245d);
   text-align: center;
+  padding: 1rem;
 }
 
 /*Incluyendo EXTEND*/
@@ -123,6 +124,7 @@ main {
 .footer__texto {
   color: #0d0d0d;
   font-weight: 800;
+  padding: 1rem;
 }
 
 /*Enlaces internos página de Inicio*/
@@ -184,10 +186,6 @@ main {
   max-width: 100%;
   padding: 1rem;
   margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.contImagenes__esconderImg {
-  display: none;
 }
 
 /*Página sobre nosotros*/
@@ -339,9 +337,6 @@ main {
   .contImagenes__imgs {
     width: 30%;
   }
-  .contImagenes__esconderImg {
-    display: inline-block;
-  }
 
   .tituloSecundario {
     font-size: 1.5rem;
@@ -467,9 +462,6 @@ main {
   }
   .contImagenes__imgs {
     width: 35%;
-  }
-  .contImagenes__esconderImg {
-    display: inline-block;
   }
 
   #titulo1 {

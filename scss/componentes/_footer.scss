@@ -3,6 +3,7 @@
 .footer {
   background-image: linear-gradient(white, $rosa-claro, $rosa-oscuro);
   text-align: center;
+  padding: 1rem;
 }
 
 /*Incluyendo EXTEND*/
@@ -30,4 +31,5 @@
 .footer__texto {
   color: $black-color;
   font-weight: 800;
+  padding: 1rem;
 }
