@@ -78,7 +78,7 @@ main {
 
 /*Estilos header*/
 .header {
-  background-image: linear-gradient(white, #ff69ca);
+  background-image: linear-gradient(#bf245d, #ff69ca, white);
 }
 .header__logo {
   height: 76px;
@@ -95,7 +95,7 @@ main {
 
 /*ESTILOS FOOTER*/
 .footer {
-  background-image: linear-gradient(#ff69ca, white);
+  background-image: linear-gradient(white, #ff69ca, #bf245d);
   text-align: center;
 }
 

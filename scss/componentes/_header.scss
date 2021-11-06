@@ -1,7 +1,7 @@
 /*Estilos header*/
 
 .header {
-  background-image: linear-gradient(white, $rosa-claro);
+  background-image: linear-gradient($rosa-oscuro, $rosa-claro, white);
   &__logo {
     height: 76px;
   }
