@@ -131,12 +131,16 @@ main {
 .enlaceInterno {
   text-decoration: none;
   color: #73224f;
-  margin-left: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   font-weight: bold;
+  font-size: 3rem;
+  padding: 1rem;
 }
 .enlaceInterno:hover {
-  transform: scale(2);
-  color: #0d0d0d;
+  transform: scale(1.3);
+  color: #f21667;
 }
 
 /*CAROUSEL*/
