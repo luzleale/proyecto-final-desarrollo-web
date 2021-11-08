@@ -531,6 +531,10 @@ main {
     grid-template-columns: repeat(4, 1fr);
   }
 }
+.background404 {
+  background-color: #ff69ca;
+}
+
 .page404 {
   height: 100vh;
   display: flex;
