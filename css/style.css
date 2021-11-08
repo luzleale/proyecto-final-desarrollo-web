@@ -532,7 +532,7 @@ main {
   }
 }
 .background404 {
-  background-color: #ff69ca;
+  background-color: #f1c4f2;
 }
 
 .background404 main {
@@ -562,6 +562,7 @@ main {
 
 .imgError {
   padding-top: 2rem;
+  width: 80%;
   max-width: 100%;
 }
 
