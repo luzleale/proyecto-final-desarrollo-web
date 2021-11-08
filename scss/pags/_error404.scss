@@ -6,12 +6,18 @@
   align-items: center;
   color: $rosa-principal;
 }
-.style404 {
+.page404 a {
+  text-decoration: none;
   color: $rosa-principal;
   font-size: 1.5rem;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   font-weight: bold;
   &:hover {
-    color: blue;
+    color: $color-violeta;
   }
+}
+.imgError {
+  padding-top: 2rem;
+  max-width: 100%;
 }

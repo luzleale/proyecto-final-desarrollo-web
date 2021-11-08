@@ -540,14 +540,21 @@ main {
   color: #f21667;
 }
 
-.style404 {
+.page404 a {
+  text-decoration: none;
   color: #f21667;
   font-size: 1.5rem;
   padding-top: 2rem;
+  padding-bottom: 2rem;
   font-weight: bold;
 }
-.style404:hover {
-  color: blue;
+.page404 a:hover {
+  color: #73224f;
+}
+
+.imgError {
+  padding-top: 2rem;
+  max-width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
