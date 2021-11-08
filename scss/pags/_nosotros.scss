@@ -6,13 +6,13 @@
   flex-direction: column;
   &__imagen {
     flex-wrap: wrap;
-    margin-top: 2rem;
-    margin-bottom: 3rem;
-    padding: 1rem;
+    text-align-last: center;
+    justify-content: center;
     max-width: 100%;
   }
   &__section {
     flex-wrap: wrap;
+    justify-content: center;
     padding: 1rem;
     width: 100%;
     &--texto {
@@ -20,13 +20,17 @@
     }
   }
 }
+.contenedorImagen {
+  display: flex;
+  justify-content: center;
+}
 .divMapa {
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 .mapaStyle {
   width: 100%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
   padding: 2rem;
 }
