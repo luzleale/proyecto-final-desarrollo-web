@@ -550,19 +550,19 @@ main {
 
 .page404 a {
   text-decoration: none;
-  color: #f21667;
+  color: #73224f;
   font-size: 1.5rem;
   padding-top: 2rem;
   padding-bottom: 2rem;
   font-weight: bold;
 }
 .page404 a:hover {
-  color: #73224f;
+  transform: scale(1.2);
+  text-decoration: underline;
 }
 
 .imgError {
   padding-top: 2rem;
-  width: 80%;
   max-width: 100%;
 }
 
