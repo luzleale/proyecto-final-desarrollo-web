@@ -1,6 +1,9 @@
 .background404 {
   background-color: $rosa-claro;
 }
+.background404 main {
+  padding-top: 0px;
+}
 .page404 {
   height: 100vh;
   display: flex;
