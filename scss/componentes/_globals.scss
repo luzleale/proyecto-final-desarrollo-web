@@ -66,7 +66,7 @@ main {
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   font-weight: bold;
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   color: $rosa-oscuro;
   text-align: center;
 }
@@ -80,7 +80,8 @@ main {
 }
 
 .estilosTexto {
-  @include fuentes($color-violeta, 1rem, normal);
+  @include fuentes($color-violeta, 1.2rem, bold);
+  text-align: center;
 }
 
 .estilosParrafo {
