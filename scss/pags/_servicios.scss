@@ -15,20 +15,25 @@
   border-color: $border-color;
 }
 
+.gradientServicios {
+  background-image: linear-gradient(white, $rosa-claro, white);
+}
+
 .flexServicios {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 1rem;
   margin-right: 1rem;
-  background-image: linear-gradient(white, $rosa-claro);
   &__componente1 {
     @include servicios(flex-start, 100%, 1rem, double, $rosa-oscuro);
   }
   &__componente2 {
-    @include servicios(flex-end, 100%, 1rem, double, #8c8c8c);
+    @include servicios(flex-end, 100%, 1rem, double, $rosa-oscuro);
+    margin-top: 1rem;
   }
   &__componente3 {
-    @include servicios(flex-direction, 100%, 1rem, double, $rosa-claro);
+    @include servicios(flex-direction, 100%, 1rem, double, $rosa-oscuro);
+    margin-top: 1rem;
   }
 }

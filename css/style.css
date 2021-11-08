@@ -42,13 +42,12 @@ main {
 
 .tituloPrincipal {
   color: #f21667;
-  text-align: left;
+  text-align: center;
   line-height: 2rem;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
-  padding-top: 1rem;
+  padding-top: 2rem;
   padding-bottom: 1rem;
-  margin-top: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
   text-shadow: 5px 5px 5px #8c8c8c;
@@ -229,13 +228,16 @@ main {
 
 /*Página de Servicios: flex-box y mobile first*/
 /*MIXINS*/
+.gradientServicios {
+  background-image: linear-gradient(white, #ff69ca, white);
+}
+
 .flexServicios {
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
   margin-left: 1rem;
   margin-right: 1rem;
-  background-image: linear-gradient(white, #ff69ca);
 }
 .flexServicios__componente1 {
   justify-content: flex-start;
@@ -249,14 +251,16 @@ main {
   width: 100%;
   padding: 1rem;
   border-style: double;
-  border-color: #8c8c8c;
+  border-color: #bf245d;
+  margin-top: 1rem;
 }
 .flexServicios__componente3 {
   justify-content: flex-direction;
   width: 100%;
   padding: 1rem;
   border-style: double;
-  border-color: #ff69ca;
+  border-color: #bf245d;
+  margin-top: 1rem;
 }
 
 /*Galería de imágenes*/
@@ -264,7 +268,7 @@ main {
 .galeria__titulo {
   text-align: center;
   font-weight: bolder;
-  font-size: 2.5rem;
+  font-size: 2.3rem;
   text-shadow: 4px 5px 8px #0d0d0d;
 }
 
@@ -369,23 +373,25 @@ main {
   /*Contenido página de Servicios*/
   .tituloPrincipal {
     font-size: 2rem;
-    padding-top: 1rem;
     padding-bottom: 1rem;
   }
 
   .flexServicios {
     flex-direction: row;
-    flex-wrap: wrap;
-    background-image: none;
+    flex-wrap: nowrap;
   }
   .flexServicios__componente1 {
     width: 35%;
   }
   .flexServicios__componente2 {
     width: 30%;
+    margin-top: 0;
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
   .flexServicios__componente3 {
     width: 35%;
+    margin-top: 0;
   }
 
   .estilosParrafo {
@@ -482,15 +488,12 @@ main {
   /*Contenido página de Servicios*/
   .tituloPrincipal {
     font-size: 2.5rem;
-    text-align: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
   }
 
   .flexServicios {
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: linear-gradient(white, #ff69ca);
   }
   .flexServicios__componente1 {
     width: 30%;

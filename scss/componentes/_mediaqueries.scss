@@ -42,21 +42,23 @@
 
   .tituloPrincipal {
     font-size: 2rem;
-    padding-top: 1rem;
     padding-bottom: 1rem;
   }
   .flexServicios {
     flex-direction: row;
-    flex-wrap: wrap;
-    background-image: none;
+    flex-wrap: nowrap;
     &__componente1 {
       width: 35%;
     }
     &__componente2 {
       width: 30%;
+      margin-top: 0;
+      margin-left: 1rem;
+      margin-right: 1rem;
     }
     &__componente3 {
       width: 35%;
+      margin-top: 0;
     }
   }
   .estilosParrafo {
@@ -152,14 +154,11 @@
 
   .tituloPrincipal {
     font-size: 2.5rem;
-    text-align: center;
-    padding-top: 2rem;
     padding-bottom: 2rem;
   }
   .flexServicios {
     flex-direction: row;
     flex-wrap: nowrap;
-    background-image: linear-gradient(white, $rosa-claro);
     &__componente1 {
       width: 30%;
     }
