@@ -346,7 +346,9 @@ main {
 }
 
 .contenedorForm {
-  width: 100%;
+  margin: 0 auto;
+  width: 90%;
+  height: 90vh;
   display: flex;
   justify-content: center;
 }
