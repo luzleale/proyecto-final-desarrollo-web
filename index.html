@@ -52,7 +52,7 @@
 
   <body>
     <!--Inicio del header-->
-    <header id="comienzo">
+    <header>
       <nav class="navbar navbar-expand-lg navbar-light fixed-top header">
         <div class="container-fluid">
           <!--Enlace para ir desde el logo a la página de inicio-->
@@ -144,7 +144,7 @@
       </div>
       <!--Presentación del sitio web-->
       <!--Estilos Flexbox-->
-      <section class="contInicio">
+      <section class="contInicio" id="comienzo">
         <div class="contInicio__flexItem1">
           <h2 class="tituloSecundario">Centro de estética para la mujer</h2>
           <p class="estilosTexto">
@@ -157,14 +157,33 @@
             nuestro lema.
           </p>
         </div>
-          <!--Imágenes ilustrativas-->
-      <section class="contImagenes">      
-        <img
-          src="./imagenes/esmaltesDeColores2.png"
-          class="contImagenes__imgs"
-          alt="tapas con pinceles de esmaltes de distintos colores, con el fondo transparente y apuntando hacia abajo"
-        />      
-      </section>
+        <!--Cards con promociones-->
+        <div class="cardPromoContainer">
+          <div class="cardPromo">
+            <img src="./imagenes/promo 1.jpg" class="cardImg" alt="manos de una mujer con las uñas pintadas de un color clarito casi blanco, sosteniendo una taza blanca">
+            <div class="cardTexto">
+              <h3 class="tituloSecundario">Promo 1</h3>
+              <p class="estilosParrafo">Esmaltado tradicional, estilo francés, ¡a mitad de precio! Costo final $300. Válido hasta el 31 de diciembre del 2021. No te la pierdas!!!</p>
+              <button class="cardButton">Reservar</button>
+            </div>
+          </div>
+          <div class="cardPromo">
+            <img src="./imagenes/promo 2.jpg" class="cardImg" alt="señora haciéndole masajes con un rodillo a una mujer recostada de espaldas en una camilla">
+            <div class="cardTexto">
+              <h3 class="tituloSecundario">Promo 2</h3>
+              <p class="estilosParrafo">¡Masajes integrales descontracturantes para vos y una amiga!Aprovechá esta promo, llevándote dos sesiones de masajes, una para vos y otra para tu amiga, abonando solo una de ellas. Precio final $850. Válida durante todo el mes de noviembre</p>
+              <button class="cardButton">Reservar</button>
+            </div>
+          </div>
+          <div class="cardPromo">
+            <img src="./imagenes/promo 3.jpg" class="cardImg" alt="señora pintándole a otra las uñas de las manos con un color rosa">
+            <div class="cardTexto">
+              <h3 class="tituloSecundario">Promo 3</h3>
+              <p class="estilosParrafo">Para estas fiestas de fin de año, lucí unas uñas divinas, vení a SK a hacerte un esmaltado semipermanente del color que más te guste y aboná con un 25% de descuento. Promo válida hasta el 31/12/21.</p>
+              <button class="cardButton">Reservar</button>
+            </div>
+          </div>
+        </div> 
         <!--Información extra-->
         <div class="contInicio__flexItem2">
           <h2 class="tituloSecundario">Info Turnos</h2>

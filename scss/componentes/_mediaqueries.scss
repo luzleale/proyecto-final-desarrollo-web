@@ -11,10 +11,27 @@
 @media only screen and (min-width: 768px) {
   /*Contenido página de Inicio*/
 
-  .contImagenes {
-    flex-direction: row;
-    &__imgs {
-      width: 30%;
+  .contInicio {
+    flex-direction: column;
+    justify-content: center;
+    &__flexItem1 {
+      justify-content: center;
+      text-align: center;
+      margin: 0 auto;
+      max-width: 70%;
+      margin-top: 2rem;
+      margin-bottom: 4rem;
+      background-color: $color-claro;
+      border-radius: 2rem;
+    }
+    &__flexItem2 {
+      margin: 0 auto;
+      justify-content: center;
+      padding: 3rem;
+      text-align: center;
+      max-width: 60%;
+      margin-top: 5rem;
+      margin-bottom: 5rem;
     }
   }
 
@@ -107,22 +124,6 @@
 }
 
 @media only screen and (min-width: 1024px) {
-  /*Contenido página de Inicio*/
-
-  .contInicio {
-    flex-direction: column;
-    justify-content: center;
-    &__flexItem1 {
-      justify-content: center;
-      text-align: center;
-    }
-    &__flexItem2 {
-      margin-right: auto;
-      justify-content: center;
-      padding: auto;
-      text-align: center;
-    }
-  }
   .tituloSecundario {
     color: $rosa-oscuro;
     font-size: 2rem;
