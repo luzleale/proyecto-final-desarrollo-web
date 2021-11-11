@@ -33,3 +33,16 @@
     margin-top: 1rem;
   }
 }
+.giftFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.giftFlex p {
+  width: 90%;
+}
+.giftImg {
+  max-width: 100%;
+  margin: 0 auto;
+}
