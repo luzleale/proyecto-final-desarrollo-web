@@ -444,6 +444,10 @@ main {
     max-width: 90%;
   }
 
+  .cardPromo {
+    flex-direction: row;
+  }
+
   /*Contenido página de Servicios*/
   .tituloPrincipal {
     font-size: 2rem;
