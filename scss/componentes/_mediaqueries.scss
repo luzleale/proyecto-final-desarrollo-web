@@ -140,12 +140,6 @@
   .estilosTexto {
     font-size: 1.8rem;
   }
-  .contImagenes {
-    flex-direction: row;
-    &__imgs {
-      width: 35%;
-    }
-  }
 
   #titulo1 {
     line-height: 5rem;
@@ -188,7 +182,6 @@
     &__imagen {
       flex-wrap: nowrap;
       max-width: 100%;
-      // height: 50vh;
     }
     &__section {
       flex-wrap: nowrap;

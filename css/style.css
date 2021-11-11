@@ -549,13 +549,6 @@ main {
     font-size: 1.8rem;
   }
 
-  .contImagenes {
-    flex-direction: row;
-  }
-  .contImagenes__imgs {
-    width: 35%;
-  }
-
   #titulo1 {
     line-height: 5rem;
     font-size: 3.2rem;
