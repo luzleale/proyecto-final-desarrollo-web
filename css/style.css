@@ -348,7 +348,7 @@ main {
 .contenedorForm {
   width: 100%;
   display: flex;
-  justify-content: left;
+  justify-content: center;
 }
 .contenedorForm__estilos {
   text-align: center;
@@ -493,11 +493,6 @@ main {
   }
 
   .mapaStyle {
-    justify-content: center;
-  }
-
-  /*Contenido página de Contacto*/
-  .contenedorForm {
     justify-content: center;
   }
 
