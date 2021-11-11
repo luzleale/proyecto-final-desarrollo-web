@@ -279,10 +279,6 @@ main {
 
 /*Página de Servicios: flex-box y mobile first*/
 /*MIXINS*/
-.gradientServicios {
-  background-image: linear-gradient(white, #ff69ca, white);
-}
-
 .flexServicios {
   display: flex;
   flex-direction: column;
@@ -345,8 +341,14 @@ main {
   row-gap: 0.5rem;
 }
 
+.gradientContacto {
+  background-image: linear-gradient(white, #ff69ca, white);
+}
+
 .contenedorForm {
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
+  height: 90vh;
   display: flex;
   justify-content: left;
 }

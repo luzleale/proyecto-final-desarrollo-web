@@ -1,5 +1,10 @@
+.gradientContacto {
+  background-image: linear-gradient(white, $rosa-claro, white);
+}
 .contenedorForm {
-  width: 100%;
+  margin: 0 auto;
+  width: 80%;
+  height: 90vh;
   display: flex;
   justify-content: left;
   &__estilos {
