@@ -50,6 +50,7 @@ main {
   padding-bottom: 1rem;
   margin-bottom: 1rem;
   margin-left: 1rem;
+  margin-right: 1rem;
   text-shadow: 5px 5px 5px #8c8c8c;
 }
 
@@ -68,6 +69,7 @@ main {
   font-weight: bold;
   text-transform: uppercase;
   text-shadow: 5px 5px 5px #ff69ca;
+  line-height: 2rem;
 }
 
 /*Incluyendo MIXINS*/
@@ -326,7 +328,7 @@ main {
 }
 
 .giftFlex p {
-  width: 90%;
+  width: 85%;
 }
 
 .giftImg {
