@@ -2,7 +2,7 @@
 
 .enlaceInterno {
   text-decoration: none;
-  color: $color-violeta;
+  color: $rosa-principal;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -10,8 +10,7 @@
   font-size: 3rem;
   padding: 1rem;
   &:hover {
-    transform: scale(1.3);
-    color: $rosa-principal;
+    color: $color-violeta;
   }
 }
 
