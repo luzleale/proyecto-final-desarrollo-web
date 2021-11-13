@@ -285,7 +285,21 @@ main {
 }
 
 /*Página de Servicios: flex-box y mobile first*/
-/*MIXINS*/
+.bannerServicios {
+  height: 20vh;
+  background-image: url(../../imagenes/imgServ.jpg);
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 3rem;
+  margin-top: 2rem;
+}
+
+.tituloServicios {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
 .flexServicios {
   display: flex;
   flex-direction: column;
